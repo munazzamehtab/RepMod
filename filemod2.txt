@@ -1,0 +1,44 @@
+react and after star a new projct
+
+
+
+npx create-next-app
+npx create-next-app
+npx -v
+
+
+npm install -g npm
+npm -v
+
+npx create-next-app
+ y
+
+ What is your project named? ... munazza-app
+√ Would you like to use TypeScript? ... No) / Yes
+√ Would you like to use ESLint? ... No / Yes)
+√ Would you like to use Tailwind CSS? ... No / Yes)
+√ Would you like to use `src/` directory? ... No )/ Yes
+√ Would you like to use App Router? (recommended) ... No / Yes)
+√ Would you like to customize the default import alias? ... No) / Yes
+
+cd munazza-app
+
+code   .
+
+
+{now new vs code open and select package.json}
+
+
+npm run dev , lint , build
+make components folder in app and than make file of card.js in components folder
+
+
+import Card from './components/card'
+
+ <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Card />
+.....all this is  in card.js............
+export default function Card()
+{
+    return <h1>Card</h1>;
+}
